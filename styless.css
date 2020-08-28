@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+    background-color: #0D0D20;
+}
+
+header{
+    position:relative;
+    top:150px;
+    display:grid;
+    justify-content: center;
+}
+h3 {
+    text-align: center;
+    color : #BDD3C8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.top-text{
+    text-align: center;
+    color : #BDD3C8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width:650px;
+    height: 200px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:15px;
+    position:relative;
+    top:200px;
+}
+
+.cards{
+    border:1px solid #3737c2;
+    border-radius: 15px;
+    background-color: #3737c2 ;
+    color: #BDD3C8;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  600;
+}
+
+.cards1{
+    border:1px solid #171730 ;
+    border-radius: 15px;
+    background-color: #171730 ;
+    color: #BDD3C8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position:relative;
+}
+
+.cards1 > .best-price{
+    height:20px;
+    width:90px;
+    position:absolute;
+    top:-10px;
+    left:55px;
+    border: 1px solid #83b99a;
+    border-radius:15px;
+    background-color:#83b99a;
+    text-align:center;
+    color:#364242;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size:12px;
+}
+
+.view-more{
+    height:40px;
+    width: 120px;
+    line-height:30px;
+    text-align: center;
+    border:1px solid #6161A7;
+    border-radius:5px;
+    color: #6161A7;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top:250px;
+    left:46%;
+}
+
+.view-more > span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.cards1-content-span1{
+    position:relative;
+    top:20px;
+    left:30px;
+}
+
+.cards1-content-p{
+    position:relative;
+    top:40px;
+    left:30px;
+}
+
+.cards1-content-span2{
+    position:relative;
+    top:25px;
+    left:30px;
+    font-weight:normal !important;
+    font-size:15px;
+}
+
+a{
+    position: relative;
+    top:60px;
+    left:30px;
+    text-decoration:none;
+    color: #BDD3C8;
+    font-weight:500px ;
+}
